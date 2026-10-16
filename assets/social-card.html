@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+<head>
+<meta charset="utf-8">
+<title>Exportar tarjeta social a PNG (1200×630)</title>
+<style>
+  html, body { margin: 0; background: #222; display: grid; place-items: center; min-height: 100vh; }
+  .stage { width: 1200px; height: 630px; }
+  .stage img { display: block; width: 1200px; height: 630px; }
+  .hint { position: fixed; top: 16px; left: 16px; color: #fff; font: 14px/1.5 system-ui, sans-serif;
+          background: rgba(0,0,0,.65); padding: 12px 16px; border-radius: 10px; max-width: 640px; }
+  @media print {
+    .hint { display: none; }
+    html, body { background: #fff; display: block; }
+    @page { size: 1200px 630px; margin: 0; }
+    .stage { width: 1200px; height: 630px; }
+  }
+</style>
+</head>
+<body>
+  <p class="hint">
+    <strong>Cómo exportar la imagen social:</strong><br>
+    1) Imprimí esta página con <em>Destino: Guardar como PDF</em> (tamaño sin márgenes) o
+    tomá una captura del área de 1200×630.<br>
+    2) Convertí el resultado a <code>assets/social-card.png</code> (1200×630).<br>
+    3) En <code>index.html</code>, cambiá <code>assets/social-card.svg</code> por
+    <code>assets/social-card.png</code> en las etiquetas <code>og:image</code> y
+    <code>twitter:image</code>.<br>
+    Motivo: Facebook, WhatsApp y LinkedIn no siempre renderizan SVG como imagen de vista previa.
+  </p>
+  <div class="stage">
+    <img src="social-card.svg" alt="Tarjeta social del portfolio, 1200 por 630 píxeles">
+  </div>
+</body>
+</html>

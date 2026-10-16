@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" font-family="ui-sans-serif, system-ui, 'Segoe UI', Arial, sans-serif">
+  <defs>
+    <radialGradient id="g" cx="78%" cy="8%" r="70%">
+      <stop offset="0" stop-color="#5eead4" stop-opacity="0.20"/>
+      <stop offset="1" stop-color="#5eead4" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M48 0H0v48" fill="none" stroke="#ffffff" stroke-opacity="0.035"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="630" fill="#0b0d10"/>
+  <rect width="1200" height="630" fill="url(#grid)"/>
+  <rect width="1200" height="630" fill="url(#g)"/>
+
+  <g transform="translate(88 92)">
+    <rect width="52" height="52" rx="13" fill="rgba(94,234,212,0.10)" stroke="rgba(94,234,212,0.45)"/>
+    <path d="M20 14H16a5 5 0 0 0-5 5v4M32 14h4a5 5 0 0 1 5 5v4M20 38H16a5 5 0 0 1-5-5v-4M32 38h4a5 5 0 0 0 5-5v-4"
+          fill="none" stroke="#5eead4" stroke-width="3.2" stroke-linecap="round" transform="translate(0 2)"/>
+  </g>
+
+  <text x="88" y="308" fill="#e9ebef" font-size="64" font-weight="800" letter-spacing="-2.4">
+    Software a medida para que tu
+  </text>
+  <text x="88" y="384" fill="#e9ebef" font-size="64" font-weight="800" letter-spacing="-2.4">
+    operación deje de depender de
+  </text>
+  <text x="88" y="460" fill="#5eead4" font-size="64" font-weight="800" letter-spacing="-2.4">
+    planillas y tareas manuales.
+  </text>
+
+  <text x="88" y="540" fill="#b9c0cc" font-size="27" font-weight="500">
+    Sistemas · Integraciones · Automatización · QA
+  </text>
+
+  <text x="1112" y="540" fill="#8b93a2" font-size="24" font-weight="600" text-anchor="end">
+    Bruno Gentile
+  </text>
+</svg>

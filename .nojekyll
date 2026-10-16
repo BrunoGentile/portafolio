@@ -1,0 +1,3 @@
+# Este archivo evita que GitHub Pages procese el sitio con Jekyll.
+# Necesario porque el proyecto no usa Jekyll y algunos archivos podrían
+# ser ignorados sin él.
